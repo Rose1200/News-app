@@ -24,6 +24,9 @@ Open Terminal {Ctrl+Alt+T} git clone https://github.com/Rose1200/news-app.git
 cd Password-Locker
 
 code . or atom . based on the text editor you have.
+# Languages used
+
+#
 
 
 
