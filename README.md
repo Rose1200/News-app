@@ -16,3 +16,6 @@ Bootstrap
 Heroku
 
 Gunicorn
+# contact
+For any enquries or for a collaboration you can email me Kamaur732@gmail.com
+
