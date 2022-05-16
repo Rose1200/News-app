@@ -18,4 +18,12 @@ Heroku
 Gunicorn
 # contact
 For any enquries or for a collaboration you can email me Kamaur732@gmail.com
+# cloning
+Open Terminal {Ctrl+Alt+T} git clone 
+
+cd Password-Locker
+
+code . or atom . based on the text editor you have.
+
+
 
