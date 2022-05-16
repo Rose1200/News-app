@@ -1,0 +1,55 @@
+{% extends 'base.html'%}
+<!-- Styles block -->
+
+{% block styles%}
+
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+{%endblock%}
+
+<!-- Content block -->
+{% block content%}
+<section>
+  <div class="row">
+    <div class="col-3">
+      <div class="card-header">
+        <h4> News Sources</h4>
+      </div>
+      <div class="card-body">
+        {% for source in sources%}
+
+        <a href="{{source.id}}">
+          <p>{{source['name']}}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <h1 class="text-center mb-5 " style="color: #A8763E;"> Current Affairs</h1>
+
+  <div class="container mb-5">
+    <h3 class="text-center text-capitalize"> {{id}} </h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {% for article in articles%}
+      <div class="col">
+        <div class="card h-100">
+          <img src="{{article['urlToImage']}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text fw-bold"> Author: {{article['author']}}</p>
+            <p class="card-text">{{article['description']}}</p>
+            <a href="{{article.url}}">
+              <button type="button" class="btn btn-success" target="blank"> Continue...</button>
+            </a>
+          </div>
+          <div class="card-footer">
+            <p> {{article['publishedAt']}} </p>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
