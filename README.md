@@ -26,6 +26,9 @@ cd Password-Locker
 code . or atom . based on the text editor you have.
 # Tecnologies used
 python3
+# License
+MIT License: Copyright (c) 2022 Rose kamau
+
 
 
 
