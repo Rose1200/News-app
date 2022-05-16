@@ -19,7 +19,7 @@ Gunicorn
 # contact
 For any enquries or for a collaboration you can email me Kamaur732@gmail.com
 # cloning
-Open Terminal {Ctrl+Alt+T} git clone 
+Open Terminal {Ctrl+Alt+T} git clone https://github.com/Rose1200/news-app.git
 
 cd Password-Locker
 
